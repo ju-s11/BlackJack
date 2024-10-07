@@ -17,7 +17,7 @@ class Carta {
 
     public int getValorNumerico() {
         if (valor.equals("A")) {
-            return 11;  // Ás vale 11 pontos inicialmente
+            return 11;  // As vale 11 pontos inicialmente
         } else if (valor.equals("K") || valor.equals("Q") || valor.equals("J")) {
             return 10;  // Reis, Damas e Valetes valem 10 pontos
         } else {
